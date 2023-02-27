@@ -16,6 +16,7 @@ section:not(.ms_nav-bar) {
 
 #jumbotron,
 #about {
+    color: white;
     background-color: var(--bootstrap-green);
 }
 
@@ -35,7 +36,8 @@ section:not(.ms_nav-bar) {
 
 /* *********|BODY|********* */
 /* about */
-#about .ms_container {
+#about .ms_container,
+#contact .ms_container {
     padding: 0 5rem;
 }
 
@@ -48,4 +50,6 @@ section:not(.ms_nav-bar) {
 :root {
     /* background color */
     --bootstrap-green: #20c997;
+    --footer-bg: #3A546D;
+    --copyright-bg: #2C3E50;
 }
