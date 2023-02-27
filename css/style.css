@@ -1,11 +1,20 @@
 /* RESET */
 img {
     max-width: 100%;
-}    
+}
+
+.social-ul a {
+    text-decoration: none;
+    color: inherit;
+}
 
 section:not(.ms_nav-bar) {
     padding: 4rem 0;
 }    
+
+.social-ul {
+    list-style-type: none;
+}
 
 /* *********|COMMON|********* */
 
@@ -20,6 +29,9 @@ section:not(.ms_nav-bar) {
     background-color: var(--bootstrap-green);
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
 
 
 /* *********|LAYOUT|********* */
@@ -41,8 +53,30 @@ section:not(.ms_nav-bar) {
     padding: 0 5rem;
 }
 
+/* *********|FOOTER|********* */
+#find-us {
+    background-color: var(--footer-bg);
+    color: white;
+}
 
+.social-ul {
+    display: flex;
+    padding: 0;
+    column-gap: 10px;
+}
 
+.social-label {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.about-freelancer a {
+    text-decoration: none;
+    color: #20c997;
+}
 
 
 
