@@ -1,0 +1,51 @@
+/* RESET */
+img {
+    max-width: 100%;
+}    
+
+section:not(.ms_nav-bar) {
+    padding: 4rem 0;
+}    
+
+/* *********|COMMON|********* */
+
+.ms_container {
+    width: 100%;
+    margin: 0 auto;
+}    
+
+#jumbotron,
+#about {
+    background-color: var(--bootstrap-green);
+}
+
+
+
+/* *********|LAYOUT|********* */
+.ms_nav-bar {
+    background-color: rgb(49, 52, 87);
+    height: 60px;
+}    
+
+/* *********|HEADER|********* */
+/* jumbotron */
+#jumbotron img {
+    width: 250px;
+}
+
+/* *********|BODY|********* */
+/* about */
+#about .ms_container {
+    padding: 0 5rem;
+}
+
+
+
+
+
+
+/* *********|VARIABLES|********* */
+:root {
+    /* background color */
+    --bootstrap-green: #20c997;
+}
