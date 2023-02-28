@@ -165,7 +165,7 @@
                     </div>
                 </div>
 
-                <a class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</a>
+                <a class="btn btn-outline-light mt-4"><i class="fa-solid fa-download"></i> Download</a>
             </div>
         </section>
         <!-- /about -->
@@ -181,7 +181,7 @@
                 </div>
 
                 <!-- form -->
-                <form class="text-start" action="server">
+                <!-- <form class="text-start" action="server">
                     
                     <label for="name">Name</label><br>
                     <input type="text" id="name" name="name"><br>
@@ -192,8 +192,31 @@
                     <label for="number">Phone Number</label><br>
                     <input type="text" id="number" name="number"><br>
                     <input type="submit" value="Submit">
-                </form>
+                </form> -->
                 <!-- /form -->
+
+                <!-- bootstrap form -->
+                <form class="text-start">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control ms_form_input " id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control ms_form_input" id="email" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="phonenumb" class="form-label">Phone Number</label>
+                      <input type="number" class="form-control ms_form_input" id="phonenumb">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label visually-hidden">Message</label>
+                      <textarea class="ms_textarea" rows="8" name="message" id="message" >Message</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Send</button>
+                  </form>
+                <!-- /bootstrap form -->
+
             </div>
         </section>
         <!-- /contact -->

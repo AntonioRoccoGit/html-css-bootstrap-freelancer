@@ -10,18 +10,17 @@ img {
 
 section:not(.ms_nav-bar) {
     padding: 4rem 0;
-}    
+}
 
 .social-ul {
     list-style-type: none;
 }
 
 /* *********|COMMON|********* */
-
 .ms_container {
     width: 100%;
     margin: 0 auto;
-}    
+}
 
 #jumbotron,
 #about {
@@ -37,7 +36,7 @@ section:not(.ms_nav-bar) {
 /* *********|LAYOUT|********* */
 .ms_nav-bar {
     background-color: var(--copyright-bg);
-}    
+}
 
 .ms_nav-bar a {
     color: white;
@@ -48,7 +47,6 @@ section:not(.ms_nav-bar) {
 }
 
 /* *********|NAV BAR|********* */
-
 button.ms_toggler {
     border: 1px solid white;
 }
@@ -91,6 +89,27 @@ button.ms_toggler {
     color: #20c997;
 }
 
+/* *********|FORM|********* */
+.ms_form_input.form-control {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.ms_form_input.form-control:focus {
+    border-color: #212529;
+    box-shadow: none;
+}
+
+.ms_textarea {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 100%;
+    border-color: #dee2e6;
+}
+
 #copyright {
     padding: 1rem 0;
     color: white;
@@ -109,15 +128,18 @@ button.ms_toggler {
 .star-hr {
     padding: 2rem 0;
 }
+
 .star-hr i {
     padding: 0 10px;
 }
+
 .hrule {
     width: 80px;
     height: 3px;
     background-color: black;
     border-radius: 20px;
 }
+
 .hrule.white {
     background-color: rgb(255, 255, 255);
 }
