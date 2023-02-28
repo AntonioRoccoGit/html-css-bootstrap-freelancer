@@ -36,9 +36,22 @@ section:not(.ms_nav-bar) {
 
 /* *********|LAYOUT|********* */
 .ms_nav-bar {
-    background-color: rgb(49, 52, 87);
-    height: 60px;
+    background-color: var(--copyright-bg);
 }    
+
+.ms_nav-bar a {
+    color: white;
+}
+
+.ms_navbar-toggler-icon {
+    color: white;
+}
+
+/* *********|NAV BAR|********* */
+
+button.ms_toggler {
+    border: 1px solid white;
+}
 
 /* *********|HEADER|********* */
 /* jumbotron */
@@ -78,7 +91,11 @@ section:not(.ms_nav-bar) {
     color: #20c997;
 }
 
-
+#copyright {
+    padding: 1rem 0;
+    color: white;
+    background-color: var(--copyright-bg);
+}
 
 /* *********|VARIABLES|********* */
 :root {
@@ -86,4 +103,21 @@ section:not(.ms_nav-bar) {
     --bootstrap-green: #20c997;
     --footer-bg: #3A546D;
     --copyright-bg: #2C3E50;
+}
+
+/* *********|Star Break Rule|********* */
+.star-hr {
+    padding: 2rem 0;
+}
+.star-hr i {
+    padding: 0 10px;
+}
+.hrule {
+    width: 80px;
+    height: 3px;
+    background-color: black;
+    border-radius: 20px;
+}
+.hrule.white {
+    background-color: rgb(255, 255, 255);
 }
